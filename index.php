@@ -14,8 +14,8 @@
             <div class="carousel-item active">
               <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Full day Setiembre 2018</h5>
-                <p>Con participación de jovenes y adolescentes que conforman cada célula de nuestra iglesia se realizó una integración entre ellas.</p>
+                <h5>Full-Day Setiembre 2018</h5>
+                <p>Con participación de jovenes y adolescentes que conforman cada célula de nuestra iglesia se realizó una integración, en la cual además de realizar diversos juegos y dinámicas los jovenes pudieron llevarse un mensaje de parte de Dios.</p>
               </div>
             </div>
             <div class="carousel-item">
