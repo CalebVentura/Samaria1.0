@@ -2,53 +2,15 @@
 <?php include_once 'template/header.php';?>
 <?php include_once 'includes/bd_conexion.php' ?>
 
-        <!-- CAROUSELl-->
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Full-Day Setiembre 2018</h5>
-                <p>Con participación de jovenes y adolescentes que conforman cada célula de nuestra iglesia se realizó una integración, en la cual además de realizar diversos juegos y dinámicas los jovenes pudieron llevarse un mensaje de parte de Dios.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Full day Setiembre 2018</h5>
-                <p>Con participación de jovenes y adolescentes que conforman cada célula de nuestra iglesia se realizó una integración entre ellas.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slide3.jpg" alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Full day Setiembre 2018</h5>
-                <p>Con participación de jovenes y adolescentes que conforman cada célula de nuestra iglesia se realizó una integración entre ellas.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/slide4.jpg" alt="Fourth slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Full day Setiembre 2018</h5>
-                <p>Con participación de jovenes y adolescentes que conforman cada célula de nuestra iglesia se realizó una integración entre ellas.</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+<div class="position-relative overflow-hidden py-3 p-md-5 text-center bg-light portada">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Bienvenido</h1>
+        <p class="lead font-weight-normal ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi repellendus dolor pariatur autem odit itaque veniam sit, aperiam harum!</p>
+        <a class="btn btn-outline-secondary" href="#">Adelante</a>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
         
         <!-- TITULO SECCION 1 -->
         <div class="container container mt-3">

@@ -61,6 +61,19 @@ textarea {
 .nav-link, .nav-link:hover{
     color: #000;
 }
+.portada{
+    background-image: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.portada h1{
+    color: #000;
+}
+
+
 .carta{
     background-color: #f8f8f8;
 }

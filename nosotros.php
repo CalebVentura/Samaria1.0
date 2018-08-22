@@ -9,13 +9,11 @@
             <div class="row">
                 <div class="col-12 col-sm-6 pt-5 px-5 text-center">
                     <h3 class="">MISIÓN</h3>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam provident eligendi id, in labore ipsa odit, amet veniam facere, commodi explicabo reiciendis sit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem quae inventore. Dignissimos repudiandae velit inventore, quos aliquam quaerat sit architecto, cumque consequuntur.</p>
+                    <p class="">"Somos el pueblo de Dios; hombre y mujeres de todas las edades, operamos en nuestra ciudad: Alabando y adorando a Dios; ministrandonos mutuamente. Alcanzando a laspersonas con las buenas nuevas de salvación y atendiendo las necesidades integrales del ser humano a través de programas y proyectos en Cristo"</p>
                 </div>
                 <div class="col-12 col-sm-6  pt-5 px-5 text-center">
                     <h3 class="">VISIÓN</h3>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam provident eligendi id, in labore ipsa odit, amet veniam facere, commodi explicabo reiciendis sit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga veniam provident nesciunt quia, ut, doloremque nulla praesentium sint incidunt voluptate!</p>
+                    <p class="">"Ser una iglesia referente en misiones en nuestra ciudad que se desvele por cumplir la gran comisión. Sólida en la formación bíblica doctrinal que refleja las manifestaciones del espíritu Santo reverente y de buen testimonio. Bien organizado y desarrollando grandes proyectos en Cristo de acuerdo a las necesidades y la realidad actual."</p>
                 </div>
             </div>
         </div>
@@ -30,8 +28,8 @@
                 <div class="col-12 pt-5 px-5 text-justify">
                     <h3 class="">INICIOS</h3>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aliquid dolor ipsam atque nihil cum, sapiente quidem a error qui at officia unde. Minima laboriosam officiis nulla praesentium quod voluptate, nostrum, pariatur aspernatur esse distinctio, quidem molestias consequatur numquam. Dolorum excepturi assumenda, minima deserunt repudiandae!</p>
-                    <div>
-                        <img src="img/1.jpg" alt="">
+                    <div class="container-expand img-fluid">
+                        <img src="img/1.jpg" alt="" class="img-fluid">
                     </div>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aliquid dolor ipsam atque nihil cum, sapiente quidem a error qui at officia unde. Minima laboriosam officiis nulla praesentium quod voluptate, nostrum, pariatur aspernatur esse distinctio, quidem molestias consequatur numquam. Dolorum excepturi assumenda, minima deserunt repudiandae!</p>
                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eius id tenetur minus ratione sit temporibus in repudiandae laborum nihil quas excepturi neque praesentium assumenda, enim blanditiis est laboriosam repellat accusamus odit. Distinctio sint vel obcaecati accusamus totam tempora laudantium eos aspernatur cumque ex molestias inventore perspiciatis voluptates rem, nam quisquam, porro at sed. Quas, quam nisi numquam libero eveniet quidem, commodi id quaerat, velit minus quod?</p>
