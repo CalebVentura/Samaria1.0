@@ -1,29 +1,24 @@
  
         <!-- FOOTER -->
-        <footer class="px-5">
+        <footer class="">
             <div class="row">
 
                 <!--SOBRE NOSOTROS-->
                 <div class="col-12 col-sm-4 pt-5 px-1 text-center">
                     <h3 class="text-light">SOBRE NOSOTROS</h3>
-                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam provident eligendi id, in labore ipsa odit, amet veniam facere, commodi explicabo reiciendis sit!</p>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">ver más</button>
-                    </div>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Figlesiasamariaadp%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div><!--SOBRE NOSOTROS-->
 
                 <!-- REFLEXIONES -->
                 <div class="col-12 col-sm-4  pt-5 px-1 text-center">
-                    <h3 class="text-light">ULTIMAS NOTICIAS</h3>
+                    <h3 class="text-light">NAVEGA</h3>
                     <ul class="list-unstyled">
-                        <li><a class="text-light" href="#">Resource</a></li>
-                        <li><a class="text-light" href="#">Resource name</a></li>
-                        <li><a class="text-light" href="#">Another resource</a></li>
-                        <li><a class="text-light" href="#">Final resource</a></li>
+                        <li><a class="text-light" href="#">Inicio</a></li>
+                        <li><a class="text-light" href="#">Galeria</a></li>
+                        <li><a class="text-light" href="#">Reflexiones</a></li>
+                        <li><a class="text-light" href="#">Reuniones</a></li>
+                        <li><a class="text-light" href="#">Nosotros</a></li>
                     </ul>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">ver más</button>
-                    </div>
                 </div><!-- REFLEXIONES -->
                 
                 <!-- CONTACTOS -->    
@@ -36,7 +31,7 @@
                         </div>
                         <div class="form-group">
                             <label for="mensaje">Escriba su mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="4" name="mensaje"></textarea>
+                            <textarea class="form-control" id="mensaje" rows="4" name="mensaje" placeholder="Escribenos, gustosamente te responderemos"></textarea>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block" id="btn-submit" type="submit" name="submit">Enviar mensaje</button>
                     </form>
@@ -52,7 +47,7 @@
 
                 <!-- COPYRIGHT-->
                 <div class="col-12 my- text-center">
-                    <small class="d-block mb-3 text-light">Derechos reservados © ALITEV PERU - 2018</small>
+                    <small class="d-block mb-3 text-light">Derechos reservados © ALITEV PERU - <a href="admin/admin-area.php" style="color: #fff">2018</a></small>
                 </div><!-- COPYRIGHT -->
             </div>
         </footer>
@@ -62,10 +57,18 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
 
+
         <script src="js/uikit.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        
+        <!--LEAFLETJS - MAPAS -->
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+
         <script src="js/main.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        
+
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')

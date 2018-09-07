@@ -94,10 +94,6 @@ textarea {
     width: 100%;
 }
 
-footer{
-    background-color: #222;
-}
-
 .copyright{
     width: 100%;
     background-color: #000;
@@ -112,6 +108,39 @@ footer{
 }
 .colaboradores img{
     border-radius: 50%;
+}
+
+@media (min-width: 736px){
+    .galeriaa{
+        width: 20%
+    }
+}
+
+@media (min-width: 1024px){
+    .galeriaa{
+        width: 12.25%
+    }
+}
+
+@media (min-width: 1024px){
+    .galeria{
+        width: 100%
+    }
+}
+
+.mapa{
+    height: 400px;
+}
+
+footer{
+    padding: 0px 15px !important;
+    background-color: #222;
+}
+
+@media (min-width: 370px){
+    footer{
+        padding: 0px 25px !important; 
+    }
 }
 
 /* ==========================================================================

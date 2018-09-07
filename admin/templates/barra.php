@@ -3,9 +3,9 @@
 <div class="wrapper">
   <header class="main-header">
     <!-- Logo -->
-    <a href="admin-area.php" class="logo">
+    <a href="../index.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>S</b>18</span>
+      <span class="logo-mini"><b>SM</b>18</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>SAMARIA</b></span>
     </a>
@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-
+      <div style="color: #fff; font-weight: 600; text-align: center;><a href="admin-area.php"><p>VOLVER A INICIO DEL PANEL</p></a></div>
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- User Account: style can be found in dropdown.less -->

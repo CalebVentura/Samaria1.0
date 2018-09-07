@@ -35,7 +35,7 @@
 
                     <!--Imparables 2018-->
                     <li>
-                        <div class="uk-child-width-1-4@s uk-child-width-1-6@m uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
+                        <div class="uk-child-width-1-4@s uk-child-width-1-6@m  uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
                             <?php 
                                 try {
                                   $sql = "SELECT * FROM  galeria";
@@ -45,9 +45,9 @@
                                   echo $error;
                                 }
                                while ($imagen = $resultado->fetch_assoc() ) { ?>
-                                    <div>
-                                        <a class="uk-inline" href="img/imparables2018/<?php echo $imagen['url']; ?>" caption="Imparables 2018">
-                                            <img src="img/imparables2018/thumbs/<?php echo $imagen['url']; ?>" alt="">
+                                    <div class="galeriaa">
+                                        <a class="uk-inline galeria" href="img/imparables2018/<?php echo $imagen['url']; ?>" caption="Imparables 2018">
+                                            <img class="galeria" src="img/imparables2018/thumbs/<?php echo $imagen['url']; ?>" alt="">
                                         </a>
                                     </div>  
                               <?php } ?>
@@ -56,7 +56,7 @@
 
                     <!--Full Day-->
                     <li>
-                        <div class="uk-child-width-1-6@m uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
+                        <div class="uk-child-width-1-4@s uk-child-width-1-6@m  uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
                             <?php 
                                 try {
                                   $sql = "SELECT * FROM  galeria";
@@ -66,9 +66,9 @@
                                   echo $error;
                                 }
                                while ($imagen = $resultado->fetch_assoc() ) { ?>
-                                    <div>
-                                        <a class="uk-inline" href="img/fullday/<?php echo $imagen['url']; ?>" caption="FULL DAY">
-                                            <img src="img/fullday/thumbs/<?php echo $imagen['url']; ?>" alt="">
+                                    <div class="galeriaa">
+                                        <a class="uk-inline galeria" href="img/fullday/<?php echo $imagen['url']; ?>" caption="FULL DAY">
+                                            <img class="galeria" src="img/fullday/thumbs/<?php echo $imagen['url']; ?>" alt="">
                                         </a>
                                     </div>  
                               <?php } ?>
@@ -77,7 +77,7 @@
 
                     <!--EBDV 2018-->
                     <li>
-                        <div class="uk-child-width-1-6@m uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
+                        <div class="uk-child-width-1-4@s uk-child-width-1-6@m  uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
                             <?php 
                                 try {
                                   $sql = "SELECT * FROM  galeria";
@@ -87,9 +87,9 @@
                                   echo $error;
                                 }
                                while ($imagen = $resultado->fetch_assoc() ) { ?>
-                                    <div>
-                                        <a class="uk-inline" href="img/ebdv2018/<?php echo $imagen['url']; ?>" caption="EBDV 2018">
-                                            <img src="img/ebdv2018/thumbs/<?php echo $imagen['url']; ?>" alt="">
+                                    <div class="galeriaa">
+                                        <a class="uk-inline galeria" href="img/ebdv2018/<?php echo $imagen['url']; ?>" caption="EBDV 2018">
+                                            <img  class="galeria" src="img/ebdv2018/thumbs/<?php echo $imagen['url']; ?>" alt="">
                                         </a>
                                     </div>  
                               <?php } ?>
@@ -98,7 +98,7 @@
 
                     <!--25 Aniversario-->
                     <li>
-                        <div class="uk-child-width-1-6@m uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
+                        <div class="uk-child-width-1-4@s uk-child-width-1-6@m  uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
                             <?php 
                                 try {
                                   $sql = "SELECT * FROM  galeria";
@@ -108,9 +108,9 @@
                                   echo $error;
                                 }
                                while ($imagen = $resultado->fetch_assoc() ) { ?>
-                                    <div>
-                                        <a class="uk-inline" href="img/25aniversario/<?php echo $imagen['url']; ?>" caption="25 ANIVERSARIO - IGLESIA SAMARIA">
-                                            <img src="img/25aniversario/thumbs/<?php echo $imagen['url']; ?>" alt="">
+                                    <div class="galeriaa">
+                                        <a class="uk-inline galeria" href="img/25aniversario/<?php echo $imagen['url']; ?>" caption="25 ANIVERSARIO - IGLESIA SAMARIA">
+                                            <img class="galeria"  src="img/25aniversario/thumbs/<?php echo $imagen['url']; ?>" alt="">
                                         </a>
                                     </div>  
                               <?php } ?>
@@ -119,7 +119,7 @@
 
                     <!--Huaraz 2016 -->
                     <li>
-                        <div class="uk-child-width-1-6@m uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
+                        <div class="uk-child-width-1-4@s uk-child-width-1-6@m  uk-child-width-1-3 uk-grid-collapse" uk-grid uk-lightbox="animation: fade">
                             <?php 
                                 try {
                                   $sql = "SELECT * FROM  galeria";
@@ -129,9 +129,9 @@
                                   echo $error;
                                 }
                                while ($imagen = $resultado->fetch_assoc() ) { ?>
-                                    <div>
-                                        <a class="uk-inline" href="img/huaraz2016/<?php echo $imagen['url']; ?>" caption=" VIAJE MISIONERO - HUARAZ 2016">
-                                            <img src="img/huaraz2016/thumbs/<?php echo $imagen['url']; ?>" alt="">
+                                    <div class="galeriaa">
+                                        <a class="uk-inline galeria" href="img/huaraz2016/<?php echo $imagen['url']; ?>" caption=" VIAJE MISIONERO - HUARAZ 2016">
+                                            <img class="galeria"  src="img/huaraz2016/thumbs/<?php echo $imagen['url']; ?>" alt="">
                                         </a>
                                     </div>  
                               <?php } ?>

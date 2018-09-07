@@ -15,13 +15,20 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/uikit.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
         <link rel="stylesheet" href="css/main.css">
+
+        
     </head>
     <body>
         <!-- NAVEGACION -->
         <div class="navegacion py-3">
             <nav class="navbar navbar-expand-md navbar-light bg-faded">
-                <a class="navbar-brand" href="admin/admin-area.php">
+                <a class="navbar-brand" href="index.php">
                     <img src="img/logo-barra.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 SAMARIA
                 </a>
